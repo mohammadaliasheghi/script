@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #add stop file
 stop_file=~/Documents/.stop.sh
-if [ -e $stop_file ]; then
+if [ -f $stop_file ]; then
     echo "#stop servers" > $stop_file
     else
       mkdir ~/Documents/.stop.sh
