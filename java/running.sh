@@ -4,7 +4,8 @@ stop_file=~/Documents/.stop.sh
 if [ -f $stop_file ]; then
     echo "#stop servers" > $stop_file
     else
-      mkdir ~/Documents/.stop.sh
+      touch ~/Documents/.stop.sh
+      sudo chmod 755 ~/Documents/.stop.sh
 fi
 #eureka-server
 jar_path=~/workspace/backend/cloud-platform/eureka-server/target/
