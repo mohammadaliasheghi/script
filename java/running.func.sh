@@ -20,7 +20,7 @@ ejs(){
       java -jar "$jar_file" &
       process_id=$!
       echo $process_id
-      echo "#$app_name" >> stop_file
+      echo "#$app_name" >> $stop_file
       echo "kill $process_id" >> $stop_file
       sleep 15
       else
