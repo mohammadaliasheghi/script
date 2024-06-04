@@ -14,7 +14,11 @@ ejs(){
   local jar_file=${3:?err! no parameter!}
 
   if [ -d "$jar_path" ]; then
-      echo "running $app_name"
+    # shellcheck disable=SC2006
+    green_bg=`tput setab 2`
+    # shellcheck disable=SC2006
+    reset=`tput sgr0`
+    echo "${green_bg}running $app_name${reset}"
       # shellcheck disable=SC2164
       cd "$jar_path"
       java -jar "$jar_file" &
