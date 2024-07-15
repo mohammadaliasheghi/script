@@ -29,4 +29,4 @@ for i in "${links[@]}"; do
 done
 }
 
-d_links ~/Downloads/react-test.txt ~/Downloads/react rjs 29
+d_links ~/Downloads/react-test.txt ~/Downloads/react rjs 1
