@@ -8,3 +8,5 @@ sudo docker exec -it kafka1 /bin/bash
 sudo docker-compose -f zk-single-kafka-single.yml down
 # check version
 kafka-topics --version
+# check publish message in kafka with terminal
+kafka-console-consumer --topic oauth-topic --from-beginning --bootstrap-server localhost:9092
