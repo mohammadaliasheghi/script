@@ -16,18 +16,22 @@ ejs(){
     green_bg=`tput setab 2`
     reset=`tput sgr0`
     echo "${green_bg}running $app_name${reset}"
-      cd "$jar_path"
-      mv *.jar app.jar
-      java -jar app.jar &
-      process_id=$!
-      echo $process_id
-      echo "#$app_name" >> $stop_file
-      echo "kill $process_id" >> $stop_file
-      sleep 15
-      else
-        echo "$app_name not fund!"
-        sleep 10
-        exit
+    cd "$jar_path"
+    if [ -e app.jar ]; then
+        echo "exists $app_name"
+        else
+          mv *.jar app.jar
+    fi
+    java -jar app.jar &
+    process_id=$!
+    echo $process_id
+    echo "#$app_name" >> $stop_file
+    echo "kill $process_id" >> $stop_file
+    sleep 15
+  else
+    echo "$app_name not fund!"
+    sleep 10
+    exit
   fi
 }
 
