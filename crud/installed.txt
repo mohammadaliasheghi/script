@@ -1,0 +1,13 @@
+com.berzanmikaili.intellij.monokai_pro
+com.thvardhan.gradianto
+com.jetbrains.darkPurpleTheme
+monokai-pro
+com.vermouthx.idea
+com.tylerthrailkill.intellij.solarized
+com.intellij.properties.bundle.editor
+com.arcticicestudio.nord.jetbrains
+net.antelle.intellij-xcode-dark-theme
+com.samdark.intellij-visual-studio-code-dark-plus
+String Manipulation
+com.chrisrm.idea.MaterialThemeUI
+zielu.gittoolbox

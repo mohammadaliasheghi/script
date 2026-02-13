@@ -1,0 +1,28 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Java MVC.java" file-name="entity/${NAME}Entity" reformat="true" live-template-enabled="false">
+        <template name="Java MVC.java.child.0.java" file-name="controller/${NAME}Controller" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.1.java" file-name="service/View${NAME}Service" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.2.java" file-name="restriction/View${NAME}Restriction" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.3.java" file-name="entity/view/View${NAME}" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.4.java" file-name="validator/${NAME}Validator" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.5.java" file-name="service/${NAME}Service" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.6.java" file-name="mapper/${NAME}Mapper" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.7.java" file-name="repository/${NAME}Repository" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.8.java" file-name="model/${NAME}Model" reformat="true" live-template-enabled="false" />
+        <template name="Java MVC.java.child.9.java" file-name="repository/View${NAME}Repository" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Java MVC.java.child.0.java" file-name="controller/${NAME}Controller" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.1.java" file-name="service/View${NAME}Service" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.2.java" file-name="restriction/View${NAME}Restriction" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.3.java" file-name="entity/view/View${NAME}" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.4.java" file-name="validator/${NAME}Validator" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.5.java" file-name="service/${NAME}Service" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.6.java" file-name="mapper/${NAME}Mapper" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.7.java" file-name="repository/${NAME}Repository" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.8.java" file-name="model/${NAME}Model" reformat="true" live-template-enabled="false" />
+      <template name="Java MVC.java.child.9.java" file-name="repository/View${NAME}Repository" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>

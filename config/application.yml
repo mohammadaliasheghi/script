@@ -1,0 +1,34 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  liquibase:
+    change-log: classpath:/changelog/liquibase-changelog.xml
+  sql:
+    init:
+      continue-on-error: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: cloud
+    password: cloud
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  kafka:
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 7885
+  error:
+    include-message: always
+
+security:
+  password:
+    secret-key: $2a$10$Q7vv9Y3ZuWQkU6320B7mq...QRr7/z76io4vma5rlII0ezZfhVK0e
